@@ -1,0 +1,16 @@
+{
+  "name": "CERADA – Confworld Educational Research and Development Association",
+  "description": "CERADA fosters global collaboration in education, research, and innovation. Join as a student, professional, institutional, or corporate member. Attend conferences, publish in top journals, and access exclusive opportunities worldwide.",
+  "short_name": "CERADA",
+  "start_url": "/",
+  "lang": "en-US",
+  "theme_color": "#4EC996",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://confworld.org/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

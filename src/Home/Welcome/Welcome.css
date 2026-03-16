@@ -1,0 +1,66 @@
+.welcome-section {
+  margin: 40px;
+}
+
+.welcome-section > h1 {
+  text-align: center;
+  color: #04503b;
+  font-size: 28px;
+}
+
+.welcome-section > section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin: 20px 40px;
+}
+
+.welcome-section > section > div {
+  flex: 1;
+}
+
+.welcome-section > section > div > p {
+  text-align: justify;
+}
+
+.welcome-section > section > div > img {
+  height: 400px;
+}
+
+.welcome-section > section > div > button {
+  padding: 10px 20px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media (max-width: 1050px) {
+  .welcome-section > section {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  .welcome-section > section > div > img {
+    height: 280px;
+  }
+  .welcome-section {
+    margin: 10px;
+  }
+  .welcome-section > section {
+    margin: 10px;
+  }
+  .welcome-section > section > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .welcome-section > section {
+    gap: 0px;
+  }
+}

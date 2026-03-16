@@ -1,0 +1,126 @@
+.membership {
+  margin: 60px 40px 40px 40px;
+}
+
+.membership > h1 {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  color: #04503b;
+}
+
+.membership > section {
+  margin-top: 40px;
+}
+
+.membership > section > div {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.021);
+  position: relative;
+  height: 150px;
+  transition: 0.6s ease-in-out height, 1s ease-in-out background-color;
+}
+
+.membership > section > div > img {
+  width: 300px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  transition: 0.6s ease-in-out all;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  scale: 0;
+}
+
+.membership > section > div:hover img {
+  height: 300px;
+  width: 500px;
+  scale: 1;
+}
+
+.membership > section > div:hover {
+  height: 300px;
+  background-color: #aaffdb;
+}
+
+.membership > section > div > div > h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.membership > section > div:hover div > button {
+  background-color: #ed8c24;
+}
+
+.membership > section > div:hover div > h1 {
+  font-size: 28px;
+  transition: 0.6s ease-in-out all;
+}
+
+.membership > section > div:hover div > p {
+  font-size: 15px;
+  transition: 0.6s ease-in-out all;
+}
+
+.membership > section > div > div > p {
+  font-size: 14px;
+  width: 60%;
+}
+
+.membership > section > div > div > button {
+  border: none;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  background-color: green;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 500px;
+  cursor: pointer;
+  transition: 0.6s ease-in-out all;
+}
+
+@media (max-width: 950px) {
+  .membership > section > div:hover img {
+    height: 260px;
+    width: 400px;
+    scale: 1;
+  }
+  .membership > section > div:hover div > p {
+    width: 50%;
+  }
+  .membership > section > div {
+    height: 160px;
+  }
+}
+
+@media (max-width: 700px) {
+  .membership > section > div {
+    height: 200px;
+  }
+  .membership > section > div > div > p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .membership > section > div:hover img {
+    height: 260px;
+    width: calc(100% - 40px);
+    scale: 1;
+  }
+  .membership > section > div {
+    height: auto;
+  }
+  .membership > section > div:hover div > p {
+    width: 100%;
+  }
+  .membership {
+    margin: 60px 20px 40px 20px;
+}
+}

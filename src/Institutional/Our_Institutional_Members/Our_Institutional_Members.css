@@ -1,0 +1,138 @@
+.institutional_membership {
+  padding: 80px 40px 40px 40px;
+  position: relative;
+  background-color: #f6f6f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.institutional_membership > div {
+  width: full;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.institutional_membership > h2 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  color: #00cec8;
+  text-shadow: 1px 1px 1px #00000033;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.stanp {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.logo-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* REDUCED PADDING to make more room for the image */
+  padding: 10px; 
+  border-radius: 20px;
+  box-shadow: #0000001a 0 4px 12px;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  /* INCREASED WIDTH for a larger container */
+  width: 280px; 
+  height: auto;
+  overflow: hidden;
+  background: white;
+}
+
+.logo-item img {
+  max-width: 100%;
+  /* INCREASED HEIGHT to make images larger */
+  height: 200px; 
+  border-radius: 5px;
+}
+/* REMOVED specific override for :nth-child(4) for consistency */
+/* .logo-item:nth-child(4) img {
+  max-width: 100%;
+  height: 170px;
+  border-radius: 5px;
+} */
+
+.logo-item p {
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* Standard Logo Styling */
+.standard {
+  border: 2px solid #ccc;
+  /* ADJUSTED WIDTH to match new .logo-item width */
+  width: 280px;
+}
+
+.standard p {
+  font-size: 14px;
+  font-weight: 550;
+  text-align: center;
+}
+
+/* Elite Logo Styling */
+.elite {
+  border: 2px solid #ffca28;
+  /* Elite partners maintain their larger size for distinction */
+  width: 350px; 
+  height: 250px;
+}
+.elite > img {
+  width: 350px;
+  height: auto;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.elite p {
+  font-size: 14px;
+  font-weight: 550;
+  text-align: center;
+  margin: 0;
+}
+
+/* Elite Ribbon Badge */
+.elite-badge {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  background: #d48806;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transform: rotate(-20deg);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effect */
+.logo-item:hover {
+  transform: scale(1.05);
+}

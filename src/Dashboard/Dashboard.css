@@ -1,0 +1,179 @@
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.left {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  border-right: 2px solid rgba(0, 128, 0, 0.212);
+}
+
+.left > img {
+  height: 80px;
+  margin: 20px auto;
+}
+
+.left > ul {
+  margin: 10px 0px 0px 0px;
+  list-style: none;
+  padding-left: 0px;
+  width: calc(100% - 50px);
+}
+
+.left > ul > :nth-child(1) {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.left > ul > li {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.left > ul > :last-child {
+  background-color: #dbffc4;
+  border-radius: 5px;
+}
+
+.left > ul > li > button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.right {
+  flex: 4;
+  height: 100%;
+  overflow: scroll;
+}
+
+.right::-webkit-scrollbar {
+  display: none;
+}
+
+.right > h1 {
+  margin: 40px 20px 10px 20px;
+  font-weight: 600;
+}
+
+.right > div > table > thead > tr {
+  background-color: #008001;
+  color: white;
+}
+
+.right > div > table {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.right > div > table > thead > tr > th {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 8px 10px;
+  text-wrap: nowrap;
+}
+
+.right > div > table > tbody > tr > td {
+  font-size: 11px;
+  padding: 8px 10px;
+  text-align: center;
+  background-color: #f2fdeb;
+  position: relative;
+}
+
+.right > div > table > tbody > tr > td > li {
+  display: none;
+  position: absolute;
+  top: calc(50% + 10px);
+  left: 50%;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 450;
+  width: 300px;
+  z-index: 3;
+  text-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.right > div > table > tbody > tr > td:hover li {
+  display: block;
+}
+
+.right > div > table > tbody > tr {
+  position: relative;
+}
+
+.down-load {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+}
+
+.down-load > :nth-child(1) {
+  font-size: 22px;
+  color: green;
+}
+
+/* .Membership-table {
+  transform: scale(0.7) translateX(-21%);
+}
+
+.journal-table {
+  transform: scale(0.8) translateX(-12%);
+}
+
+.host-table {
+  transform: scale(0.75) translateX(-17%);
+}
+
+.Presentation-table {
+  transform: scale(0.75) translateX(-17.5%);
+} */
+
+.down {
+  color: green;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height: 60px;
+}
+
+.down > :nth-child(1) {
+  font-size: 25px;
+}
+/* 
+.journals-table {
+  transform: scale(0.9) translateX(-60px);
+}
+
+.journalss-table {
+  transform: scale(0.85) translateX(-110px);
+} */

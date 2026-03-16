@@ -1,0 +1,335 @@
+#std-info {
+  height: 700px;
+}
+
+.join-us {
+  margin: 40px;
+}
+
+.join-us > h2 {
+  text-align: center;
+  margin-left: 80px;
+  color: rgb(0, 206, 200);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.std-m {
+  margin-top: 50px;
+}
+
+.join-us > p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.join-us > div > img {
+  height: 500px;
+}
+
+.join-us > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.join-us > div > div {
+  flex: 1;
+  overflow: clip;
+  padding-left: 40px;
+}
+
+.join-us > div > div > p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.join-us > div > div > button {
+  padding: 12px 20px;
+  border: none;
+  font-family: "poppins", sans-serif;
+  outline: none;
+  background-color: green;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.join-us > div > div > h1 {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px;
+  background-color: gold;
+  width: 300px;
+  border-radius: 6px;
+  animation: 1.25s ease-in-out zoom infinite alternate;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.membership-form {
+  background-repeat: no-repeat;
+  background-position: -580px;
+  background-size: 100% 100%;
+  background-color: #fafafa;
+  padding: 40px 0px;
+  scale: 0.75;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.pop-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #33333373;
+  z-index: 10;
+}
+
+.X-mark {
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #55555515;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+
+
+.X-mark:hover {
+  background-color: #00c4ac;
+  color: white;
+}
+
+.student-membership-container {
+  max-width: 800px;
+  width: calc(100% - 100px);
+  margin: 0px auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.s-m-f {
+  padding: 50px 0px;
+  background-color: #f7fafd;
+}
+
+.student-membership-container > h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #00cec8;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #00000033;
+}
+
+.form-groups {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.form-groups > label {
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 16px;
+}
+
+.form-groups > :nth-child(1) {
+  width: fit-content;
+}
+
+.form-groups > input,
+.form-groups > select {
+  border: 1px solid rgb(13, 206, 206);
+  border-radius: 4px;
+  font-size: 14px;
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  font-family: "poppins", sans-serif;
+  box-sizing: initial;
+}
+
+.input-mobile {
+  width: calc(100% - 20px);
+  padding: 4px 10px;
+  font-family: "poppins", sans-serif;
+}
+
+.input-flag {
+  width: calc(100% + 20px);
+  font-family: "poppins", sans-serif;
+}
+
+.form-groups > input:focus,
+.form-groups > select:focus {
+  border-color: rgb(13, 206, 206);
+  outline: none;
+}
+
+.submit-button-btn {
+  width: 100%;
+  padding: 8px 10px;
+  background-color: #ed8c24;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button-btn:hover {
+  background-color: #ed8c24;
+}
+
+.input-qualification {
+  display: flex;
+  gap: 10px;
+}
+
+.price-tag {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.price-tag > a {
+  padding: 18px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  color: black;
+  font-family: "poppins", sans-serif !important;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.price-tag > a > h2 {
+  font-size: 22px;
+  font-weight: 550;
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.price-tag > a > p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0;
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+}
+
+.price-tag > a > button {
+  background-color: #7e22ce;
+  color: white;
+  font-family: "poppins", sans-serif;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  margin-top: 30px;
+}
+
+.price-tag > a:hover {
+  scale: 1.1;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.price-tag > a > button > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  animation: 1.25s ease-in-out shake infinite;
+}
+
+.price-tag > a > button:hover span {
+  animation-play-state: paused;
+}
+
+@keyframes shake {
+  10% {
+    transform: translateX(10px);
+  }
+  20% {
+    transform: translateX(-10px);
+  }
+  30% {
+    transform: translateX(10px);
+  }
+  40% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+  0% {
+    transform: translateX(0px);
+  }
+}
+
+@media (max-width: 1050px) {
+  .price-tag {
+    flex-direction: column;
+  }
+  .price-tag > a {
+    width: 300px;
+  }
+  .join-us > div {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .join-us > div > img {
+    height: 300px;
+  }
+  .sm {
+    height: 250px;
+  }
+  .student-membership-container {
+    width: calc(100% - 60px);
+  }
+  .price-tag > a:hover {
+    scale: 1;
+  }
+}

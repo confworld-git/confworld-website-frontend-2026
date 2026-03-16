@@ -1,0 +1,37 @@
+#cerada-history {
+  height: 250px;
+}
+
+.item {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item > div > h2 {
+  color: #00cec8;
+}
+
+#cerada-history-2 {
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 18px;
+}
+
+.his-img {
+  background-image: url('/images/services/12.jpg');
+  /* background-position: top; */
+}
+
+@media (max-width: 600px) {
+  .about-main > img {
+    object-fit: contain;
+  }
+  .his-img {
+    height: 250px;
+  }
+  .item {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}

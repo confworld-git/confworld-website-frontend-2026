@@ -1,0 +1,50 @@
+/* Navbar.module.css */
+
+/* Container for Google Translate widget */
+.translateContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Style for translate widget select dropdown */
+.goog-te-combo {
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: white;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Ensures the Google logo is visible */
+.goog-logo-link {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: 20px;
+  width: auto;
+}
+
+/* Hide the Google Translate top banner */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+/* Shift page content to top when translate banner hidden */
+body {
+  top: 0 !important;
+  position: static !important;
+}
+
+/* Override to keep dropdown visible */
+.goog-te-gadget {
+  white-space: nowrap;
+  overflow: visible !important;
+}
+
+/* Optional: Style arrows icon if present */
+.goog-te-combo::-ms-expand {
+  display: none;
+}

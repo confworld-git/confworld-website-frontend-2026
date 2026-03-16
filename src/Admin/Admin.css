@@ -1,0 +1,30 @@
+.add-new {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  font-family: "poppins", sans-serif;
+  margin-left: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .pay{
+  margin-left: -250px;
+  scale: .75;
+} */
+
+.delete-btn {
+  padding: 4px 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-family: "poppins", sans-serif;
+  border-radius: 3px;
+}
+
+#status-pay::first-letter{
+  text-transform: capitalize;
+}

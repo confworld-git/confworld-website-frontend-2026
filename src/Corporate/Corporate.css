@@ -1,0 +1,61 @@
+.benefits {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  gap: 5px;
+}
+
+.benefits > :nth-child(1) {
+  color: gold;
+}
+
+.benefits > :nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+  color: #00a39e;
+  text-wrap: nowrap;
+  flex: 2.5;
+}
+
+.corpo>h1{
+  font-size: 24px;
+  color: #7E22CE;
+}
+
+.benefits > :nth-child(3) {
+  flex: 4;
+}
+
+#corp2 {
+  height: 580px;
+}
+
+.Advertise > :nth-child(2) {
+  flex: 1;
+}
+
+
+@media (max-width: 995px) {
+  .cm {
+    background-position: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .cm {
+    height: 250px;
+    background-position: center;
+  }
+  #corp2 {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .benefits > :nth-child(2) {
+    width: 100%;
+    text-wrap: wrap;
+  }
+  .benefits {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+
+.register-page {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "SUSE", sans-serif;
+  gap: 10px;
+}
+
+.register-page > h2 {
+  font-family: "SUSE", sans-serif;
+  margin: 0px 40px;
+  font-size: 38px;
+  padding: 0;
+}
+
+.register-page > p {
+  margin: 5px 40px;
+  font-size: 18px;
+  padding: 0;
+}
+
+.register-page > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.register-page > div > a {
+  width: 400px;
+  outline: none;
+  border: none;
+  background-color: white;
+  font-family: "SUSE", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+  margin: 4px 40px;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  overflow: clip;
+  z-index: 1;
+  color: black;
+}
+
+.register-page > div > a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 110%;
+  width: 0%;
+  background-color: #00cec8;
+  border-radius: 0px 500px 0px 0px;
+  transition: 0.5s ease-in-out all;
+  z-index: -1;
+}
+
+.register-page > div > a:hover::before {
+  width: 110%;
+  border-radius: 0px;
+}
+
+.register-page > div > a:hover {
+  padding: 25px;
+}
+.register-page > div > a > p {
+  color: black;
+  transition: 0.5s ease-in-out all;
+}
+
+.register-page > div > a:hover h4 > svg {
+  animation-play-state: running;
+}
+
+.register-page > div > a:hover h4 {
+  color: white;
+}
+
+.register-page > div > a:hover p {
+  color: white;
+}
+
+.register-page > div > a > :nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.register-page > div > a > :nth-child(2) {
+  font-size: 15px;
+}
+
+.register-page > div > a > h4 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: 0.5s ease-in-out all;
+}
+
+.register-page > div > a > h4 > svg {
+  font-size: 22px;
+  animation: split 0.8s ease-in-out;
+  animation-iteration-count: 1;
+  animation-play-state: paused;
+}
+
+@keyframes split {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.register-container {
+  width: 100%;
+  max-width: 600px;
+  /* margin: 0 auto; */
+  flex: 1;
+  padding: 40px;
+  margin: 40px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  border-radius: 8px;
+  position: relative;
+  border-right: 10px solid #00755c;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.register-container::-webkit-scrollbar {
+  display: none;
+}
+
+.register-container > h1 {
+  margin-top: 0;
+  font-size: 34px;
+  /* color: #05d0eb; */
+  height: auto;
+  background: none;
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.register-row {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.register-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.register-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid rgb(10, 201, 214);
+  border-radius: 4px;
+  transition: border-color 0.3s;
+  font-family: "poppins", sans-serif;
+}
+
+.register-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+  font-family: "poppins", sans-serif;
+}
+
+.member-country {
+  width: calc(100% + 20px);
+}
+
+.register-input:focus,
+.register-select:focus {
+  border-color: #00c4ac;
+  outline: none;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 10px 12px;
+  background-color: #05d6be;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "poppins", sans-serif;
+  transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #00a2ff;
+}
+
+.membership-form-section {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 50px;register-container */
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -230px -110px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.membership-form-section > div {
+  flex: 1;
+}
+
+.Professional-form-section {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 50px; */
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -150px 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.Professional-form-section > div {
+  flex: 1;
+}
+
+.Professional-form-section > div > div {
+  background-color: #00cad8;
+  width: fit-content;
+  padding: 20px;
+  margin: 40px;
+
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+}
+
+.Professional-form-section > div > div > h2 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.Professional-form-section > div > div > :nth-child(2) {
+  border-radius: 4px 4px 0px 0px;
+}
+.Professional-form-section > div > div > :nth-child(4) {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.Professional-form-section > div > div > p {
+  font-size: 15px;
+  display: flex;
+  gap: 8px;
+  background-color: white;
+  color: black;
+  align-items: center;
+  margin: 0;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+.Professional-form-section > div > div > p > b {
+  font-weight: 600;
+  color: blue;
+}
+
+.Institutional-form-section {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 50px; */
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.Institutional-form-section > div {
+  flex: 1;
+}
+
+.Corporate-form-section {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 50px; */
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -150px 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.Corporate-form-section > div {
+  flex: 1;
+}
+
+.formtype-options {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.formtype-option > label {
+  font-weight: 450;
+}
+
+@media (max-width: 1050px) {
+  .membership-form-section > div {
+    display: none;
+  }
+  .Professional-form-section > div {
+    display: block;
+  }
+  .Institutional-form-section > div {
+    display: none;
+  }
+  .Corporate-form-section > div {
+    display: none;
+  }
+  .Professional-form-section {
+    background-size: cover;
+    background-position: center;
+  }
+  .Institutional-form-section {
+    background-size: cover;
+    background-position: center;
+  }
+  .Corporate-form-section {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Professional-form-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .Professional-form-section > div {
+    height: fit-content;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .register-container {
+    flex: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .register-row {
+    flex-direction: column;
+  }
+  .register-btn {
+    font-size: 14px;
+  }
+  .register-page {
+    background-size: cover;
+    background-position: center;
+  }
+  .register-page > div > button {
+    width: 90%;
+    margin: 4px auto;
+  }
+  .register-page > div > button > :nth-child(1) {
+    font-size: 17px;
+  }
+  .register-page > div > button > :nth-child(2) {
+    font-size: 14px;
+  }
+  .register-container {
+    overflow-y: scroll;
+    padding: 20px;
+    height: auto;
+  }
+  .Professional-form-section {
+    background-image: none;
+  }
+  .membership-form-section {
+    height: auto;
+    padding: 20px;
+  }
+  .Professional-form-section {
+    padding: 20px;
+    height: auto;
+  }
+  .Institutional-form-section {
+    padding: 20px;
+    height: auto;
+  }
+  .Corporate-form-section {
+    padding: 20px;
+    height: auto;
+  }
+  .member-country {
+    width: 100%;
+  }
+  .Professional-form-section > div {
+    width: 100%;
+  }
+  .Professional-form-section > div > div {
+    width: 100%;
+  }
+  .Professional-form-section > div > div > h1 {
+    font-size: 20px;
+  }
+}

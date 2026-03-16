@@ -1,0 +1,297 @@
+.careers > h1 {
+  font-size: 25px !important;
+  text-align: center;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.careers > p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 550;
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+}
+
+.careers > img {
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(30, 30, 30, 0.076);
+}
+
+.careers > div {
+  margin: 80px 60px;
+}
+
+.career {
+  padding: 10px 20px;
+  background-color: #227bce09;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+  transition: 0.3s ease-in-out all;
+}
+
+.career:hover {
+  padding: 20px 40px;
+}
+
+.career > div > h2 {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.4s ease-in-out all;
+}
+
+.career:hover div > h2 {
+  font-size: 28px;
+}
+
+.career > div > h2 > button {
+  padding: 10px 20px;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 600px;
+  background-color: #7e22ce;
+  color: white;
+  cursor: pointer;
+  scale: 0.8;
+}
+
+.career > div > p {
+  font-size: 14px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4px;
+  text-align: justify;
+}
+
+.career:hover .location {
+  font-size: 24px;
+}
+
+.location {
+  color: #ed8c24;
+  font-size: 20px;
+  transition: 0.3s ease-in-out all;
+}
+
+.career > div > span {
+  padding: 8px 30px;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  position: relative;
+  margin: 3px 0px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: default;
+}
+
+.vacancy-open::before {
+  content: "";
+  background-color: #00a7a1;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  top: 50%;
+  position: absolute;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.vacancy-closed::before {
+  content: "";
+  background-color: #ed4b46;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  top: 50%;
+  position: absolute;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.career > div > :nth-child(4) {
+  font-size: 16px;
+  font-weight: 450;
+}
+
+.name-field {
+  margin-bottom: 20px;
+}
+
+/* CAREER FORM STYLE */
+
+.career-home-form {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 30;
+  background-color: rgba(211, 234, 255, 0.155);
+}
+
+.career-home-form::-webkit-scrollbar {
+  display: none;
+}
+
+.career-form {
+  width: 600px;
+  padding: 40px;
+  margin: 0px auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 30px;
+  position: relative;
+  transform: scale(0.7);
+  background-color: white;
+}
+
+.career-form > i {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.048);
+}
+
+.career-form > i:hover {
+  background-color: rgba(0, 0, 0, 0.13);
+}
+
+.career-form > h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.name-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "poppins", sans-serif;
+  margin-top: 8px;
+}
+
+.number-field {
+  margin-bottom: 20px;
+}
+
+.number-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "poppins", sans-serif;
+  margin-top: 8px;
+}
+
+.email-field {
+  margin-bottom: 20px;
+}
+
+.email-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "poppins", sans-serif;
+  margin-top: 8px;
+}
+
+.cv-field {
+  margin-bottom: 20px;
+}
+
+.cv-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "poppins", sans-serif;
+  margin-top: 8px;
+}
+
+.message-field {
+  margin-bottom: 20px;
+}
+
+.message-textarea {
+  width: calc(100% - 20px);
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "poppins", sans-serif;
+  margin-top: 8px;
+}
+
+.submit-button {
+  background-color: #00c4ac;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #ed8c24;
+}
+
+@media (min-width: 1350px) {
+  .careers > img {
+    object-position: 0px -200px;
+  }
+}
+
+@media (min-width: 1410px) {
+  .careers > img {
+    object-position: 0px -200px;
+  }
+}
+
+@media (min-width: 1510px) {
+  .careers > img {
+    object-position: 0px -220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .careers > div {
+    margin: 60px 20px;
+  }
+  .career {
+    margin-bottom: 20px;
+  }
+  .career > div > h1 > button {
+    text-wrap: nowrap;
+  }
+  .career-form {
+    transform: scale(0.9);
+  }
+  .careers > img {
+    object-position: center;
+    object-fit: contain;
+    height: 200px;
+  }
+}

@@ -1,0 +1,149 @@
+.upcoming {
+  padding: 40px 10px 10px 20px;
+  /* background: #00cec8; */
+  background: #ffffff
+}
+
+/* .upcoming > h1 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
+} */
+
+.events {
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 6px;
+  padding: 10px;
+  /* width: 230px; */
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  /* background-color: white; */
+  text-align: center;
+}
+
+.events > img {
+  height: 60px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.events > p {
+  font-size: 14px;
+  font-weight: 450;
+  margin: 0;
+}
+
+.events > :nth-child(2) {
+  padding: 8px;
+  margin-top: 0;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.3s ease-in-out font-size;
+}
+
+.events > :nth-child(3) {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.events > :nth-child(4) {
+  padding: 17px 0px;
+  text-align: center;
+}
+
+.events > a {
+  border-radius: 5px;
+  background: linear-gradient(#007f7b, #00a49f);
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  padding: 8px 20px;
+}
+
+.events > button:active {
+  scale: 0.98;
+}
+
+.events > button:hover {
+  color: white;
+}
+
+.events > button:hover::before {
+  width: 100%;
+}
+
+.events > :nth-child(1):hover,
+.events > :nth-child(3):hover,
+.events > :nth-child(2):hover,
+.events > :nth-child(4):hover {
+  animation-play-state: paused;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #36c7d1;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: white;
+  scale: 0.4;
+}
+
+.swiper-button-next {
+  margin-right: -8px;
+}
+
+.swiper-button-prev {
+  margin-left: -8px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffffff !important;
+  opacity: 0.8;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ffffff !important; /* Tailwind's green-500 */
+  opacity: 1;
+}
+
+.swiper-pagination {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@keyframes jump {
+  0%,
+  100% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .upcoming {
+    margin: 50px 20px 40px 20px;
+  }
+  .events > img {
+    object-fit: contain;
+  }
+}

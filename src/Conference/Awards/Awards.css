@@ -1,0 +1,196 @@
+.award > h1 {
+  font-size: 34px;
+  text-align: center;
+  color: #00cec8;
+  text-shadow: 1px 1px 1px #00000033;
+}
+
+.awards {
+  margin: 0;
+}
+
+.awards > div > h1 {
+  text-align: center;
+}
+
+.awards > div {
+  margin: 0px 30px;
+}
+
+.award-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 40px 40px 40px;
+}
+
+.award-list > div {
+  width: 300px;
+  padding: 20px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out height, 0.5s ease-in-out background-position;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border: 1px solid rgba(97, 97, 97, 0.103);
+}
+
+.award-list > div > img {
+  height: 120px;
+  width: 120px;
+  margin-left: calc(50% - 60px);
+}
+
+.award-list > div > h2 {
+  font-size: 18px;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+  color: #00cec8;
+  text-shadow: 1px 1px 1px #00000018;
+}
+.award > h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: #00cec8;
+  text-shadow: 1px 1px 1px #00000018;
+}
+
+.award-list > div > p {
+  font-size: 13px;
+  transition: 0.5s ease-in-out;
+}
+
+#award-img {
+  height: 400px;
+}
+
+/* FORM STYLE */
+
+.nomination-form-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.nomination-form-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.nomination-form-description {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 18px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+/* Form Elements */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-input,
+.form-select,
+.form-textarea,
+.form-file-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #00cec8;
+  border-radius: 5px;
+  font-family: "poppins", sans-serif;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus,
+.form-file-input:focus {
+  border-color: #00c4ac;
+  outline: none;
+}
+/* Submit Button */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ed8c24;
+  color: #fff;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  border: none;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #ed8c24;
+}
+
+/* Responsive Design */
+@media (max-width: 1165px) {
+  .award-list > div {
+    height: 450px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .award-list {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .award-list {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nomination-form-container {
+    padding: 15px;
+  }
+
+  .nomination-form-title {
+    font-size: 20px;
+  }
+
+  .nomination-form-description,
+  .section-title {
+    font-size: 16px;
+  }
+
+  .form-input,
+  .form-select,
+  .form-textarea,
+  .form-file-input,
+  .submit-button {
+    font-size: 14px;
+  }
+  .awards > div > p {
+    padding: 10px 20px;
+  }
+  .award-img {
+    height: 250px;
+  }
+}

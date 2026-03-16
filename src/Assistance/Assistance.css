@@ -1,0 +1,15 @@
+#phd {
+  height: 400px;
+}
+
+.about-main > div > li {
+  font-size: 15px;
+  font-weight: 450;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .rnd {
+    height: 250px;
+  }
+}

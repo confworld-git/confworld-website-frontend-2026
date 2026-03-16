@@ -1,0 +1,133 @@
+.about-main > div > h5 {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+#inst-info {
+  height: 450px;
+}
+
+.Enhance {
+  font-size: 24px;
+  margin-top: 60px;
+  font-weight: 600;
+  text-align: center;
+  color: #00cec8;
+}
+
+.cerada-membership-container {
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.cerada-membership-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.cerada-membership-table th,
+.cerada-membership-table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  /* vertical-align: top; */
+}
+
+/* .cerada-membership-table > tbody > tr > td {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 450;
+} */
+
+/* .cerada-membership-table > tbody > tr > :last-child {
+  text-wrap: nowrap;
+} */
+
+.last {
+  background-color: #fd8300;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.last > button {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #36c7d1;
+  text-shadow: 1px 1px 1px #00000033;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.cerada-membership-table > tbody > :nth-child(even) {
+  background-color: #36c7d12c;
+}
+
+.cerada-membership-table th {
+  background-color: #00cec8;
+  text-shadow: 1px 1px 1px #00000033;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.cerada-membership-table td ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cerada-membership-table td ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 450;
+}
+
+.cerada-membership-table td ul li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  color: #36c7d1;
+}
+
+.types > h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.types {
+  margin: 30px 0px 0px 0px;
+  padding: 20px;
+  background-color: #36c7d159;
+}
+
+.types > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.types > div > img {
+  background-color: white;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 10px;
+}

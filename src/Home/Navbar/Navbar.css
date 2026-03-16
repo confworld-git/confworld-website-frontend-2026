@@ -1,0 +1,35 @@
+
+
+.navBarMenu {
+  @media screen and (max-width: 1250px) {
+    display: none;
+  }
+}
+.menuIcon {
+  @media screen and (min-width: 1250px) {
+    display: none;
+  }
+}
+.hideShow {
+  display: none;
+  @media (min-width: 1250px) {
+    display: block;
+  }
+}
+
+@media (min-width: 640) {
+  .commonMarginTop {
+    margin-top: 51px;
+  }
+}
+@media (max-width: 640px) and (min-width: 1250px) {
+  .commonMarginTop {
+    margin-top: 77px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .commonMarginTop {
+    margin-top: 134px;
+  }
+}
