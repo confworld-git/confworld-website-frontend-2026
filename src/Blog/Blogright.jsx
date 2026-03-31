@@ -159,7 +159,7 @@ const Blogright = () => {
     },
     {
       title:
-        "International Conference on Applied Science, Business and Management, Engineering & Technology ( ICABMET-2026 )",
+        "International Conference on Applied Science, Business and Management, Engineering & Technology ( ICABMET-2027 )",
       shortName: "( ICABMET-2027 )",
       date: "26-27 Jul, 2027",
       location: "Chennai, India",
