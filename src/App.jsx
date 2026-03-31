@@ -59,6 +59,7 @@ import Icsap2025Conference from "./Conference/pastConference/Icsap2025Conference
 import IcsapGallery from "./Conference/pastConference/IcsapGallery";
 import WcmrpConference from "./Conference/pastConference/Wcmrp2025Conference";
 import IcabmetConference from "./Conference/pastConference/Icabmet2025conference";
+import IcabmetConference1 from "./Conference/pastConference/Icabmet2026conference";
 import IcetmrsConference from "./Conference/pastConference/Icetmrs2025conference";
 import ApceeshConference from "./Conference/pastConference/ApceeshConference";
 import ApceeshGallery from "./Conference/pastConference/ApceeshGallery";
@@ -426,6 +427,14 @@ const App = () => {
           element={
             <Layout>
               <IcabmetConference />
+            </Layout>
+          }
+        />
+        <Route
+          path="/icabmet-conference-2026"
+          element={
+            <Layout>
+              <IcabmetConference1 />
             </Layout>
           }
         />

@@ -41,16 +41,7 @@ const upcomingConferences = [
   //   count: "",
   // },
   
-  {
-    title:
-      "International Conference on Applied Science, Business and Management, Engineering & Technology ",
-    shortName: "( ICABMET-2026 )",
-    date: "30-31 Mar, 2026",
-    location: "Dubai, UAE",
-    link: "https://icabmet.com",
-    image: "/logo/icabmetlogo.png",
-    count: "2",
-  },
+  
   {
     title:
       "International Conference on Sustainable Agriculture Practices and Climate Change Impacts ",
@@ -117,6 +108,16 @@ const upcomingConferences = [
     image: "/logo/icetmrs-logo.png",
     count: "2",
   },
+  {
+    title:
+      "International Conference on Applied Science, Business and Management, Engineering & Technology ",
+    shortName: "( ICABMET-2027 )",
+    date: "26-27 Jul, 2027",
+    location: "Chennai, India",
+    link: "https://icabmet.com",
+    image: "/logo/icabmetlogo.jpg",
+    count: "3",
+  },
 ];
 
 const Upcoming = () => {
@@ -131,7 +132,7 @@ const Upcoming = () => {
           data-aos="fade-up"
           className="mt-8 text-center text-4xl font-bold text-teal-600 text-shadow-md"
         >
-          Upcoming International Conferences 2026
+          Upcoming International Conferences 2026-2027
         </h2>
         <div className="upcoming relative bg-[#00cec8] " data-aos="fade-up">
       <div
