@@ -81,17 +81,7 @@ const Blogright = () => {
     
     
     
-     {
-      title:
-        "International Conference on Applied Science, Business and Management, Engineering & Technology ( ICABMET-2026 )",
-      shortName: "( ICABMET-2026 )",
-      date: "30-31 Mar, 2026",
-      location: "Dubai, UAE",
-      link: "https://icabmet.com",
-      theme:"Driving Innovation and Sustainable Solutions: Interdisciplinary Approaches in Applied Sciences, Business and Technology",
-      image: "/logo/icabmet-logo.webp",
-      count: "2",
-    },
+     
     {
       title:
         "International Conference on Sustainable Agriculture Practices and Climate Change Impacts ( ICSAPCI-2026 )",
@@ -166,6 +156,17 @@ const Blogright = () => {
       theme:"Sustainable Learning Through Multidisciplinary Research and Technological Innovation",
       image: "/logo/icetmrs-logo.png",
       count: "2",
+    },
+    {
+      title:
+        "International Conference on Applied Science, Business and Management, Engineering & Technology ( ICABMET-2026 )",
+      shortName: "( ICABMET-2027 )",
+      date: "26-27 Jul, 2027",
+      location: "Chennai, India",
+      link: "https://icabmet.com",
+      theme:"Driving Innovation and Sustainable Solutions: Interdisciplinary Approaches in Applied Sciences, Business and Technology",
+      image: "/logo/icabmetlogo.jpg",
+      count: "3",
     },
   ];
   const getOrdinal = (n) => {
