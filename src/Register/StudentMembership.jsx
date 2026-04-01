@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import PhoneInput from "react-phone-number-input";
 import ReactFlagsSelect from "react-flags-select";
 import axios from "axios";
-import Student from "../assets/Certificates/Student.jpg";
+import Student from "../assets/certificates/Student.jpg";
 import { getName } from "country-list";
 import logo from "/logo.png";
 import { useNavigate } from "react-router-dom";

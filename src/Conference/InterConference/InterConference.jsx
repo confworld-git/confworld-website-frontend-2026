@@ -54,22 +54,22 @@ const InterConference = () => {
     // },
     
     
+    // {
+    //   SNo: 1,
+    //   Date: "16-17 Apr 2026",
+    //   Mode: "Hybrid",
+    //   Superscript: {
+    //     number: 2,
+    //     text: "nd",
+    //   },
+    //   Title:
+    //     "International Conference on Sustainable Agriculture Practices and Climate Change Impacts (ICSAPCI-2026)",
+    //   Theme:
+    //     "Innovative Approaches to Mitigate Climate Change through Sustainable Agriculture",
+    //   Place: "Jakarta, Indonesia",
+    // },
     {
       SNo: 1,
-      Date: "16-17 Apr 2026",
-      Mode: "Hybrid",
-      Superscript: {
-        number: 2,
-        text: "nd",
-      },
-      Title:
-        "International Conference on Sustainable Agriculture Practices and Climate Change Impacts (ICSAPCI-2026)",
-      Theme:
-        "Innovative Approaches to Mitigate Climate Change through Sustainable Agriculture",
-      Place: "Jakarta, Indonesia",
-    },
-    {
-      SNo: 2,
       Date: "14-15 May 2026",
       Mode: "Hybrid",
       Superscript: {
@@ -85,7 +85,7 @@ const InterConference = () => {
     },
     
     {
-      SNo: 3,
+      SNo: 2,
       Date: "14-15 May 2026",
       Mode: "Hybrid",
       Title:
@@ -95,7 +95,7 @@ const InterConference = () => {
       Place: "Manila, Philippines",
     },
     {
-      SNo: 4,
+      SNo: 3,
       Date: "27-28 May 2026",
       Mode: "Hybrid",
       Superscript: {
@@ -109,7 +109,7 @@ const InterConference = () => {
       Place: "Kuala Lumpur, Malaysia",
     },
     {
-      SNo: 5,
+      SNo: 4,
       Date: "27-28 Jul 2026",
       Mode: "Hybrid",
       Superscript: {
@@ -123,7 +123,7 @@ const InterConference = () => {
       Place: "Singapore",
     },
     {
-      SNo: 6,
+      SNo: 5,
       Date: "28-29 Sep 2026",
       Mode: "Hybrid",
       Superscript: {
@@ -137,7 +137,7 @@ const InterConference = () => {
       Place: "Bangkok, Thailand",
     },
     {
-      SNo: 7,
+      SNo: 6,
       Date: "16-17 Nov 2026",
       Mode: "Hybrid",
       Superscript: {
@@ -151,7 +151,7 @@ const InterConference = () => {
       Place: "Istanbul, Turkey",
     },
     {
-      SNo: 8,
+      SNo: 7,
       Date: "26-27 Jul 2027",
       Mode: "Hybrid",
       Superscript: {

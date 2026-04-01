@@ -42,16 +42,16 @@ const upcomingConferences = [
   // },
   
   
-  {
-    title:
-      "International Conference on Sustainable Agriculture Practices and Climate Change Impacts ",
-    shortName: "( ICSAPCI-2026 )",
-    date: "16-17 Apr, 2026",
-    location: "Jakarta, Indonesia",
-    link: "https://icsap.co.in",
-    image: "/logo/icsapcilogo.png",
-    count: "2",
-  },
+  // {
+  //   title:
+  //     "International Conference on Sustainable Agriculture Practices and Climate Change Impacts ",
+  //   shortName: "( ICSAPCI-2026 )",
+  //   date: "16-17 Apr, 2026",
+  //   location: "Jakarta, Indonesia",
+  //   link: "https://icsap.co.in",
+  //   image: "/logo/icsapcilogo.png",
+  //   count: "2",
+  // },
   {
     title:
       "International Conference on Social Sciences, Teaching and Education, Engineering and Technology ",

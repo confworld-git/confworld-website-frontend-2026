@@ -4,7 +4,7 @@ import ReactFlagsSelect, { Ye } from "react-flags-select";
 import axios from "axios";
 import { getName } from "country-list";
 import logo from "/logo.png";
-import Professional from "../assets/Certificates/Professional.jpg";
+import Professional from "../assets/certificates/Professional.jpg";
 import { useLocation, useNavigate } from "react-router-dom";
 import { toaster } from "evergreen-ui";
 import { jsPDF } from "jspdf";

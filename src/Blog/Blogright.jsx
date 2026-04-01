@@ -82,17 +82,17 @@ const Blogright = () => {
     
     
      
-    {
-      title:
-        "International Conference on Sustainable Agriculture Practices and Climate Change Impacts ( ICSAPCI-2026 )",
-      shortName: "( ICSAPCI-2026 )",
-      date: "16-17 Apr, 2026",
-      location: "Jakarta, Indonesia",
-      link: "https://icsap.co.in",
-      theme:"Innovative Approaches to Mitigate Climate Change through Sustainable Agriculture",
-      image: "/logo/icsap-logo.webp",
-      count: "2",
-    },
+    // {
+    //   title:
+    //     "International Conference on Sustainable Agriculture Practices and Climate Change Impacts ( ICSAPCI-2026 )",
+    //   shortName: "( ICSAPCI-2026 )",
+    //   date: "16-17 Apr, 2026",
+    //   location: "Jakarta, Indonesia",
+    //   link: "https://icsap.co.in",
+    //   theme:"Innovative Approaches to Mitigate Climate Change through Sustainable Agriculture",
+    //   image: "/logo/icsap-logo.webp",
+    //   count: "2",
+    // },
     {
       title:
         "International Conference on Social Sciences, Teaching and Education, Engineering and Technology ( ICSTEET-2026 )",

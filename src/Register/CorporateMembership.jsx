@@ -3,7 +3,7 @@ import PhoneInput from "react-phone-number-input";
 import ReactFlagsSelect from "react-flags-select";
 import axios from "axios";
 import { getName } from "country-list";
-import corporate from "../assets/Certificates/Corporate.jpg";
+import corporate from "../assets/certificates/Corporate.jpg";
 import { toaster } from "evergreen-ui";
 import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";

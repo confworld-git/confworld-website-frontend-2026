@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";
 
-import instElite from "./assets/Certificates/Elite-Ins.jpg";
+import instElite from "./assets/certificates/Elite-Ins.jpg";
 
 const Certificate = () => {
 
