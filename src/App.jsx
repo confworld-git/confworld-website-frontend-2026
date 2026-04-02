@@ -55,6 +55,7 @@ import Blog9 from "./Blog/Blog9";
 import IcsteetGallery from "./Conference/pastConference/IcsteetGallery";
 import IcsteetConference from "./Conference/pastConference/IcsteetConference";
 import ConferenceList from "./Conference/pastConference/ConferenceList";
+import ConferenceList2026 from './Conference/pastConference/ConferenceList2026'
 import Icsap2025Conference from "./Conference/pastConference/Icsap2025Conference";
 import IcsapGallery from "./Conference/pastConference/IcsapGallery";
 import WcmrpConference from "./Conference/pastConference/Wcmrp2025Conference";
@@ -451,6 +452,14 @@ const App = () => {
           element={
             <Layout>
               <ConferenceList />
+            </Layout>
+          }
+        />
+        <Route
+          path="/past-conference-list-2026"
+          element={
+            <Layout>
+              <ConferenceList2026/>
             </Layout>
           }
         />

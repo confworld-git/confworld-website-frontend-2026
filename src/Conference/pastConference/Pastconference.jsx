@@ -49,9 +49,12 @@ const Pastconference = () => {
         of Engineering and Technology, Science, Education, Social Sciences and
         Humanities, shaping these fields into what they are today.
       </p>
-      <div className="year_section">
+      <div className="year_section space-x-8">
         <Link data-aos="zoom-in-up" to="/past-conference-list-2025">
           2025 <br /> CONFERENCES
+        </Link>
+        <Link data-aos="zoom-in-up" to="/past-conference-list-2026">
+          2026 <br /> CONFERENCES
         </Link>
       </div>
     </div>

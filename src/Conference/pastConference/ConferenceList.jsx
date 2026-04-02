@@ -88,20 +88,7 @@ const ConferenceList = () => {
     link: "/apceesh-conference-2025",
     logo: "/images/past-conference/2025/apceesh/apceesh.jpg",
   },
-  {
-    title: (
-      <>
-        2<sup>nd</sup> International Conference on Applied Science, Business and Management, Engineering & Technology (ICABMET-2026)
-      </>
-    ),
-    date: "30-31 Mar, 2026",
-    location: "Dubai, UAE",
-    conference_venue: "Virtual Conference",
-    organized_by:
-      " St. Dominic College of Asia, Philippines and Confworld Educational Research and Development Association",
-    link: "/icabmet-conference-2026",
-    logo: "/images/past-conference/2026/icabmet-2026/icabmet.png",
-  },
+  
 ];
 
   return (
