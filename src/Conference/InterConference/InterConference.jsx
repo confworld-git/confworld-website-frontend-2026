@@ -96,7 +96,7 @@ const InterConference = () => {
     },
     {
       SNo: 3,
-      Date: "27-28 May 2026",
+      Date: "29-30 May 2026",
       Mode: "Hybrid",
       Superscript: {
         number: 2,

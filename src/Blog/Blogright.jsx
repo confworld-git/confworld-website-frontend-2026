@@ -118,7 +118,7 @@ const Blogright = () => {
     {
       title: "World Conference on Multidisciplinary Research and Practices ( WCMRP-2026 )",
       shortName: "( WCMRP-2026 )",
-      date: "27-28 May, 2026",
+      date: "29-30 May, 2026",
       location: "Kuala Lumpur, Malaysia",
       link: "https://wcmrp.com",
       theme:"Integrating Knowledge Across Disciplines for Global Impact: Innovations, Challenges and Sustainable Solutions",

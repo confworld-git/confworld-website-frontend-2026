@@ -75,7 +75,7 @@ const upcomingConferences = [
   {
     title: "World Conference on Multidisciplinary Research and Practices ",
     shortName: "( WCMRP-2026 )",
-    date: "27-28 May, 2026",
+    date: "29-30 May, 2026",
     location: "Kuala Lumpur, Malaysia",
     link: "https://wcmrp.com",
     image: "/logo/WCMRP Logo JPG.jpg",
