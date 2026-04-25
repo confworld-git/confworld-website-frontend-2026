@@ -119,7 +119,7 @@ const SDG = () => {
   className="!text-base sm:!text-lg md:!text-2xl lg:!text-3xl"
   style={{ background: "none", height: "auto" }}
 >
-  CERADA’s Contributions to Sustainable Development Goals (SDGs)
+  CERADA&apos;s Contributions to Sustainable Development Goals (SDGs)
 </h1>
 
 
