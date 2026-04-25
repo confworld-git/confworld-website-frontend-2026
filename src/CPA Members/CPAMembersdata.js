@@ -60,6 +60,16 @@ const CPAMembers = [
      region: " Region IV-A (Calabarzon) "
   },
   {
+    name: "Prof. Sampan, Szarah, Villarojo",
+    title: " Professor,",
+    title2: "Cebu Technological University,",
+    title3: " San-Francisco Campus,",
+    title4: "Philippines.",
+    image: "/images/board-members/sampan.jpg",
+    country: "Philippines",
+     region: "Region VII - Central Visayas"
+  },
+  {
     name: "ASSOC. PROF. DR. MOHD ZAKI BIN AWANG CHEK, ",
     title: "Associate Professor, Center for Actuarial Studies,",
     title2: " Faculty of Computer and Mathematical Sciences,",
