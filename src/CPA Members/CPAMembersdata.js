@@ -50,6 +50,16 @@ const CPAMembers = [
      region: "CAR - Cordillera  Administrative Region"
   },
   {
+    name: "Dr. Jeanet E. Parreno, CGPA, CRFA, CPM, CHRA",
+    title: " Professor,",
+    title2: "De La Salle University,",
+    title3: " Manila,",
+    title4: "Philippines.",
+    image: "/images/board-members/jeanet.webp",
+    country: "Philippines",
+     region: " Region IV-A (Calabarzon) "
+  },
+  {
     name: "ASSOC. PROF. DR. MOHD ZAKI BIN AWANG CHEK, ",
     title: "Associate Professor, Center for Actuarial Studies,",
     title2: " Faculty of Computer and Mathematical Sciences,",
